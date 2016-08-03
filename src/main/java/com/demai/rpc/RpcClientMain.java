@@ -10,7 +10,7 @@ public class RpcClientMain {
     public static void main(String[] args) {
         try {
 
-            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("spring/applicationContext.xml");
+            ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("client.xml");
 
             RpcProxy proxy = (RpcProxy)ctx.getBean("rpcProxy");
 

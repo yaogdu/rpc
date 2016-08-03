@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext(new String[]{
-                "spring/applicationContext.xml"});
+                "server.xml"});
         try {
             logger.info("started successfully");
         } catch (Exception e) {
